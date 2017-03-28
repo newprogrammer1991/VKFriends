@@ -1,0 +1,40 @@
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main-css.css">
+</head>
+<body>
+<div class="main">
+<div class="head">
+<h2>Выберите друзей</h2>
+</div>
+<div class="search">
+    <input type="text" class="sort" placeholder="Начните вводить имя друга" data-action="all"> </input>
+    <input type="text" class="sort" placeholder="Начните вводить имя друга" data-action="added"> </input>
+</div>
+    <div class="context clearfix">
+        <div class="context-left ">
+            <h3> Ваши друзья</h3>
+            <div class="friends from">
+            <ul class="list-friend" data-action="all"></ul>
+            </div>
+
+        </div>
+        <div class="context-right ">
+            <h3> Друзья в списке</h3>
+            <div class="friends dropZone">
+            <ul class="list-friend" data-action="added"></ul>
+            </div>
+        </div>
+    </div>
+<div class="footer">
+
+</div>
+</div>
+<script src="http://vk.com/js/api/openapi.js" type="text/javascript"></script>
+<script src="action/main-script.js"></script>
+<script src="action/drag-and-drop.js"></script>
+<script src="action/sort-friends.js"></script>
+</body>
+</html>

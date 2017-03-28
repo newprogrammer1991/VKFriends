@@ -62,7 +62,7 @@
         }
         leftList.innerHTML = html.join('');
     };
-    img/friendadd.png
+    
     document.addEventListener("click",move);
     function move(){
         let target=event.target;
